@@ -1,0 +1,21 @@
+{
+    "name": "celalsahinaltinisik/qrc",
+    "description": "This package makes new QR Code and scan",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Celalsahinaltinisik\\Qrc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Celal Şahin Altınışık",
+            "email": "celalsahinaltinisik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5.0"
+    }
+}
