@@ -4,7 +4,7 @@ namespace celalsahinaltinisik\qrc;
 
 use celalsahinaltinisik\qrc\Services\UIGoogle;
 
-class QRC
+class QRCS
 {
     const GOOGLE = 'google';
     private $google = false;
