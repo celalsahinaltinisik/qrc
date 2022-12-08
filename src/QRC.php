@@ -2,16 +2,17 @@
 
 namespace celalsahinaltinisik\qrc;
 
+use celalsahinaltinisik\qrc\Services\Google;
 use celalsahinaltinisik\qrc\Services\UIGoogle;
 
-class QRCS
+final class QRC
 {
     const GOOGLE = 'google';
     private $google = false;
 
-    public function __construct(UIGoogle $googl)
+    public function __construct()
     {
-        $this->google = $googl;
+        $this->google = new Google();
     }
     /**
      * @param string $serviceName
